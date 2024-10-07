@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          <strong className="purple">dd진행 프로젝트</strong>
+          <strong className="purple">진행 프로젝트</strong>
         </h1>
         <p style={{ color: "white" }}>
         제가 참여한 완료된, 혹은 진행 중인 프로젝트 목록입니다.
