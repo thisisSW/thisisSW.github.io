@@ -21,10 +21,11 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", textAlign: 'left' }}>
+              <strong className="purple">성능 최적화와 효율적인 코드로<br /> 뛰어난 사용자 경험을 제공하며,<br /> 새로운 기술 도전에 열려 있는 프론트엔드 개발자<br /> 김상우입니다.</strong>
+              
             </h1>
-            <Aboutcard />
+            {/* <Aboutcard /> */}
           </Col>
           <Col
             md={5}
@@ -45,7 +46,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

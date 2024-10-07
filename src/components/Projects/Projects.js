@@ -15,10 +15,13 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple">진행 프로젝트</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        제가 참여한 완료된, 혹은 진행 중인 프로젝트 목록입니다.
+        <br />
+        아래 프로젝트들은 회사에서 진행한 프로젝트 및 개인 및 팀원과 함께 진행한 프로젝트입니다.
+
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
