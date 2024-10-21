@@ -22,6 +22,8 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
+  
+
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -83,11 +85,11 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
-              <Nav.Link
+                <Nav.Link
                 as={Link}
-                to="/Contect"
+                to="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlinePhone
@@ -96,6 +98,19 @@ function NavBar() {
                 Contact
               </Nav.Link>
             </Nav.Item>
+
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlinePhone
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Contact
+              </Nav.Link>
+            </Nav.Item> */}
 
             {/* <Nav.Item>
               <Nav.Link
