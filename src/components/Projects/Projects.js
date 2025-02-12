@@ -25,7 +25,7 @@ function Projects() {
 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={anafor}
               isBlog={false}
@@ -33,7 +33,7 @@ function Projects() {
               description = "저희 아나포는 '아픈 나를 위하여'를 모티브로 시작하였습니다. 현재도 진행 중인 코로나19를 겪으며 '건강'이라는 단어가 화두에 오르고 있습니다. 과거 건강관리 방식과 함께 디지털 헬스케어가 주목 받고 있는데 저희 아나포는 WEB, APP, IoT를 연계한 토탈 헬스케어 서비스를 개발하게 되었습니다."
               view="https://www.hanuledu.co.kr/p/?j=95&ej_code=portfolio&st=100&sv=&pno=9&sort=0&page=2&act=view&bbs_uid=14217"
             />  
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
