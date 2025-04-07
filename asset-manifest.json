@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.18c476ba.css",
-    "main.js": "/static/js/main.0bbaccfe.js",
+    "main.css": "/static/css/main.09d6d181.css",
+    "main.js": "/static/js/main.6829d140.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Cafe24OhsquareAir-v2.0.ttf": "/static/media/Cafe24OhsquareAir-v2.0.0f9efc9795bc1bee09c0.ttf",
+    "static/media/my.png": "/static/media/my.522dddb05d800ccd5238.png",
     "static/media/anafor.png": "/static/media/anafor.8affcba7b2f01adbc581.png",
     "static/media/donggu.png": "/static/media/donggu.4599d2cf674594b19454.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
@@ -17,13 +19,13 @@
     "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.18c476ba.css.map": "/static/css/main.18c476ba.css.map",
-    "main.0bbaccfe.js.map": "/static/js/main.0bbaccfe.js.map",
+    "main.09d6d181.css.map": "/static/css/main.09d6d181.css.map",
+    "main.6829d140.js.map": "/static/js/main.6829d140.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18c476ba.css",
-    "static/js/main.0bbaccfe.js"
+    "static/css/main.09d6d181.css",
+    "static/js/main.6829d140.js"
   ]
 }
