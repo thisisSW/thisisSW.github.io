@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import myImg2 from "../../Assets/my.png";
+import myImg3 from "../../Assets/my3.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,27 +20,52 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
+
             <p className="home-about-body">
-              저는 <b className="purple">React와 TypeScript</b> 기반의 웹 애플리케이션 개발을 주로 담당해왔으며, 
+              저는 <b className="purple">React와 TypeScript를 주력으로 웹 애플리케이션을 개발</b>해왔으며,
+              Axios를 통한 API 통신, Redux/Zustand 기반 전역 상태관리, Kakao/Naver Map API를 활용한 지도 기반 서비스 구현 등
+              실무에서 자주 요구되는 기술들을 실제 프로젝트에 적용해온 경험이 있습니다.
+              <br />
+              <br />
+              단순 기능 구현을 넘어 실제 서비스 환경에서의 <b className="purple">유지보수와 안정적인 운영을 중요</b>하게 생각하며, <b className="purple">코드 리팩토링 및 렌더링 최적화를 통한 성능 개선</b>을 꾸준히 수행해왔습니다.
+              <br />
+              <br />
+              React Native를 활용한 하이브리드 <b className="purple">앱 개발 및 스토어 배포 전 과정을 직접 경험</b>하였으며, Android/iOS 환경에서 발생한 이슈를 Kotlin, Swift 코드 레벨에서 수정하며 유지보수를 수행한 경험도 있습니다.
+              <br />
+              Flutter를 활용한 앱 개발 경험도 보유하고 있으며, <b className="purple">크로스플랫폼 환경에서의 UI 구현과 네이티브 연동 작업</b>을 수행한 바 있습니다.
+              <br />
+              <br />
+              또한 WebView를 통한 웹-앱 연동과 Firebase·Kakao SDK 기반 소셜 로그인 구현 등 다양한 실무 통합 경험이 있습니다.
+              <br />
+              <br />
+              <b className="purple">광주다움 통합돌봄, 스마트 크린 의정부 등 광주광역시 공공기관 프로젝트</b>에 참여하며 5개 이상의 앱을 직접 스토어에 배포·관리하고, 6개 이상의 프로젝트를 유지보수한 실서비스 운영 경험을 쌓았습니다.
+              <br />
+              GitHub 기반 협업과 Agile 방식의 프로젝트 진행 경험을 보유하고 있습니다.
+            </p>
+
+
+            {/* <p className="home-about-body">
+              저는 <b className="purple">React와 TypeScript</b> 기반의 웹 애플리케이션 개발을 주로 담당해왔으며,
               HTML, SCSS, JavaScript(ES6+)를 활용한 반응형 UI 구현 및 Axios를 통한 API 연동 경험이 있습니다.
               <br />
               <br />
               지도 기반 서비스 개발에 강점을 가지고 있으며, <b className="purple">Kakao Map API, Naver Map API</b>를 활용해 시설 정보를 지도에 표시하는 기능을 구현해왔습니다.
               <br />
               <br />
-              앱 개발 분야에서도 <b className="purple">React Native를 활용한 하이브리드 앱 개발</b> 경험이 있으며, <b className="purple">CodePush를 통한 앱 업데이트, 안드로이드/iOS 앱 배포 및 관리</b>를 수행해왔습니다. 
+              앱 개발 분야에서도 <b className="purple">React Native를 활용한 하이브리드 앱 개발</b> 경험이 있으며, <b className="purple">CodePush를 통한 앱 업데이트, 안드로이드/iOS 앱 배포 및 관리</b>를 수행해왔습니다.
               더불어 Flutter, Kotlin, Swift 등 다양한 모바일 플랫폼 기술에 대한 이해와 활용 경험도 보유하고 있습니다.
               <br />
               <br />
-              WebView를 활용한 웹-앱 연동, 
-              <b className="purple">Kakao SDK 및 Firebase Authentication 기반의 소셜 로그인(구글/애플)</b> 기능 개발 경험도 있으며, 
+              WebView를 활용한 웹-앱 연동,
+              <b className="purple">Kakao SDK 및 Firebase Authentication 기반의 소셜 로그인(구글/애플)</b> 기능 개발 경험도 있으며,
               SDK 환경 구성 및 모듈화 작업도 수행한 바 있습니다.
               <br />
               <br />
-              <b className="purple">GitHub를 통한 협업과 Agile 방식의 프로젝트 관리</b>를 경험하였고, 코드 리팩토링, 렌더링 최적화, 웹 접근성 개선 등을 통해 사용자 경험 및 성능 향상에 기여해왔습니다. 
+              <b className="purple">GitHub를 통한 협업과 Agile 방식의 프로젝트 관리</b>를 경험하였고, 코드 리팩토링, 렌더링 최적화, 웹 접근성 개선 등을 통해 사용자 경험 및 성능 향상에 기여해왔습니다.
               또한 테스트 코드 작성(Jest, React Testing Library)을 통해 안정적인 서비스 제공을 지향하고 있습니다.
-            </p>
-            
+            </p> */}
+
             {/* <p className="home-about-body">
             저는 코드의 효율성을 최우선으로 하는 프론트엔드 개발자로, <b className="purple">React, React-Native</b>에 능숙합니다. 
             <br />
@@ -71,18 +97,18 @@ function Home2() {
                 justifyContent: 'center',
                 alignItems: 'center',
               }}>
-              <img src={myImg2} className="img-fluid" alt="avatar" />
+                <img src={myImg3} className="img-fluid" alt="avatar" />
               </div>
               {/* <img src="../../Assets/my.png" /> */}
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             {/* <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
-            </p> */}
+            </p> 
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -126,7 +152,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

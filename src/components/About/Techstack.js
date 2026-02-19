@@ -21,6 +21,7 @@ import {
   SiSwift,
   SiFlutter,
   SiTypescript,
+  SiDart
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -48,7 +49,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFlutter />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDart />
+      </Col>
+
 
       {/* <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />

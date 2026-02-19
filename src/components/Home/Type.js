@@ -5,12 +5,10 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: [ 
-          '프론트엔드',
-          '웹 앱',
-          '하이브리드 앱',
-          'Android',
-          'IOS'
+        strings: [
+          'React & TypeScript',
+          'React Native',
+          'Flutter',
         ],
         autoStart: true,
         loop: true,

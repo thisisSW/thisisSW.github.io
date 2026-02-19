@@ -550,6 +550,134 @@ button:focus {
   color: white !important;
 }
 
+/* --------- */
+/* Skill Cards */
+/* --------- */
+
+.skill-card-col {
+  padding: 12px !important;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1.5px solid rgba(200, 137, 230, 0.35);
+  border-radius: 16px;
+  padding: 28px 24px;
+  height: 100%;
+  transition: all 0.4s ease;
+  backdrop-filter: blur(8px);
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(199, 112, 240, 0.06) 0%,
+    rgba(78, 20, 140, 0.04) 100%
+  );
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(200, 137, 230, 0.7);
+  box-shadow: 0 8px 32px rgba(130, 40, 200, 0.2),
+    0 0 20px rgba(199, 112, 240, 0.1);
+}
+
+.skill-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(200, 137, 230, 0.2);
+}
+
+.skill-card-category-icon {
+  font-size: 1.6em;
+  color: #c770f0;
+  display: flex;
+  align-items: center;
+}
+
+.skill-card-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.skill-card-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.skill-card-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 64px;
+  transition: all 0.3s ease;
+}
+
+.skill-card-icon-item:hover {
+  transform: scale(1.1);
+}
+
+.skill-card-icon {
+  font-size: 2.4em;
+  color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.skill-card-icon-item:hover .skill-card-icon {
+  color: #c770f0;
+}
+
+.skill-card-icon-name {
+  font-size: 0.72em;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .skill-card-col {
+    padding: 8px !important;
+  }
+
+  .skill-card {
+    padding: 20px 16px;
+  }
+
+  .skill-card-icons {
+    gap: 12px;
+  }
+
+  .skill-card-icon {
+    font-size: 2em;
+  }
+
+  .skill-card-icon-item {
+    min-width: 52px;
+  }
+}
+
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;

@@ -39,11 +39,11 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                저는 
-                <strong className="main-name">김상우</strong>
+                저는
+                웹과 모바일을 모두 경험한<p />
+                <strong className="main-name">React 기반 프론트엔드 개발자 김상우</strong>
                 입니다.
               </h1>
-
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
