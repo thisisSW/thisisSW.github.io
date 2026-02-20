@@ -42,7 +42,9 @@ function ResumeNew() {
         <Row className="justify-content-center" style={{ marginBottom: "60px" }}>
           <Col md={10}>
             <h1 className="project-heading" style={{ marginBottom: "10px" }}>
-              CAREER
+              <b className="purple">
+                CAREER
+              </b>
             </h1>
             <hr style={{ borderColor: "#c770f0", width: "60px", margin: "0 0 50px 0" }} />
 
@@ -122,7 +124,7 @@ function ResumeNew() {
         <Row className="justify-content-center">
           <Col md={10}>
             <h1 className="project-heading" style={{ marginBottom: "10px" }}>
-              CONTACT
+              <b className="purple">CONTACT</b>
             </h1>
             <hr style={{ borderColor: "#c770f0", width: "60px", margin: "0 0 20px 0" }} />
 
